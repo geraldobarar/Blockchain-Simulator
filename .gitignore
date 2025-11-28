@@ -53,3 +53,13 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Arquivo binário da blockchain (pode ficar enorme com 30k blocos)
+blockchain.bin
+
+# Arquivos de índices (para as consultas eficientes)
+*.bin
+indices/
+
+# Ignorar o executável gerado (se não estiver coberto pelo template padrão)
+blockchain_sim
